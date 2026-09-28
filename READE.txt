@@ -1,0 +1,246 @@
+URBANBITE - RESTAURANTE & CAFÉ
+TAREA 5.2 - CREACIÓN DE UNA PÁGINA WEB RESPONSIVA
+CON BOOTSTRAP Y CSS
+
+
+====================================================
+1. DESCRIPCIÓN DEL PROYECTO
+====================================================
+
+UrbanBite es una página web ficticia para un restaurante y café.
+
+El proyecto fue desarrollado utilizando HTML5, CSS3 y Bootstrap 5.3.3.
+
+La página fue diseñada para presentar información del restaurante,
+un menú de productos y un formulario de contacto.
+
+
+====================================================
+2. TECNOLOGÍAS UTILIZADAS
+====================================================
+
+- HTML5
+- CSS3
+- Bootstrap 5.3.3
+- Bootstrap Icons
+- JavaScript
+- Visual Studio Code
+- Google Chrome
+
+
+====================================================
+3. ESTRUCTURA DEL PROYECTO
+====================================================
+
+Tarea 5.2/
+│
+├── index.html
+├── menu.html
+├── contacto.html
+├── READE.txt
+│
+├── css/
+│   └── styles.css
+│
+└── images/
+    ├── burger.jpg
+    ├── coffee.jpg
+    ├── dessert.jpg
+    ├── hero.jpg
+    ├── pasta.jpg
+    ├── restaurant.jpg
+    ├── salad.jpg
+    └── tacos.jpg
+
+
+====================================================
+4. PÁGINAS WEB
+====================================================
+
+index.html
+
+Página principal de UrbanBite.
+
+Incluye:
+
+- Barra de navegación.
+- Sección Hero con imagen de fondo.
+- Información sobre UrbanBite.
+- Sección de servicios.
+- Botones de navegación.
+- Footer.
+
+
+menu.html
+
+Página donde se presentan seis productos:
+
+- Urban Burger
+- Pasta Urbana
+- Tacos Urbanos
+- Café Artesanal
+- Urban Salad
+- Sweet Bite
+
+Se utilizaron tarjetas de Bootstrap para presentar
+los productos y sus imágenes.
+
+
+contacto.html
+
+Página de contacto.
+
+Incluye:
+
+- Información de ubicación.
+- Teléfono.
+- Correo electrónico.
+- Formulario de contacto.
+- Validación de los campos mediante JavaScript.
+
+
+====================================================
+5. BOOTSTRAP
+====================================================
+
+Se utilizó Bootstrap 5.3.3 para facilitar el diseño
+responsivo y la creación de componentes de interfaz.
+
+Se utilizaron diferentes clases de Bootstrap, incluyendo:
+
+- container
+- row
+- col-md-4
+- col-lg-5
+- col-lg-7
+- navbar
+- navbar-expand-lg
+- navbar-dark
+- bg-dark
+- card
+- btn
+- btn-warning
+- shadow
+- text-center
+- py-5
+- mb-4
+
+
+====================================================
+6. SELECTORES CSS
+====================================================
+
+Se utilizaron diferentes tipos de selectores CSS.
+
+Selectores de elemento:
+
+- body
+- h1
+- h2
+- h3
+- footer
+
+Selectores de clase:
+
+- .section-label
+- .hero-section
+- .hero-content
+- .service-card
+- .service-icon
+- .menu-card
+- .contact-card
+- .contact-icon
+- .form-control
+
+Selectores de ID:
+
+- #hero
+- #about
+- #services
+- #cta
+- #contact-section
+
+
+====================================================
+7. MODELO DE CAJA
+====================================================
+
+Se aplicó el modelo de caja utilizando:
+
+- margin
+- padding
+- border
+- width
+- height
+- box-sizing
+
+Estos elementos fueron utilizados para controlar
+el espacio, tamaño y distribución de los componentes
+de la página.
+
+
+====================================================
+8. DISEÑO RESPONSIVO
+====================================================
+
+El proyecto utiliza media queries para adaptar
+el contenido a diferentes tamaños de pantalla.
+
+Se utilizaron los siguientes puntos de adaptación:
+
+- 768px para tablets.
+- 576px para teléfonos.
+
+Las imágenes, tarjetas, textos y secciones se adaptan
+para facilitar la visualización en dispositivos móviles.
+
+
+====================================================
+9. IMÁGENES
+====================================================
+
+El proyecto utiliza imágenes almacenadas localmente
+dentro de la carpeta images.
+
+Las imágenes se utilizan en:
+
+- Hero principal.
+- Sección Conócenos.
+- Tarjetas del menú.
+
+
+====================================================
+10. FORMULARIO
+====================================================
+
+El formulario de contacto utiliza Bootstrap y JavaScript.
+
+Los campos incluyen:
+
+- Nombre.
+- Correo electrónico.
+- Asunto.
+- Mensaje.
+
+Los campos son requeridos y cuentan con mensajes
+de validación cuando no se completan correctamente.
+
+
+====================================================
+11. GITHUB
+====================================================
+
+El enlace del repositorio de GitHub será agregado
+después de crear y publicar el proyecto.
+
+
+====================================================
+12. NOTAS
+====================================================
+
+Este proyecto fue creado como parte de la Tarea 5.2
+de Front-End Technologies and UI Laboratory.
+
+El objetivo principal es demostrar el uso de HTML5,
+CSS3, Bootstrap, selectores CSS, modelo de caja,
+componentes de interfaz y diseño responsivo.

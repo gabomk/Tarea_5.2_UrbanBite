@@ -1,0 +1,514 @@
+/* =====================================================
+   URBANBITE
+   TAREA 5.2
+   ESTILOS PERSONALIZADOS
+   ===================================================== */
+
+
+/* =====================================================
+   SELECTORES DE ELEMENTO
+   ===================================================== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: 0.5px;
+}
+
+
+/* =====================================================
+   SELECTOR DE CLASE
+   ===================================================== */
+
+.section-label {
+    display: inline-block;
+
+    color: #ffc107;
+
+    font-size: 0.85rem;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 10px;
+}
+
+
+/* =====================================================
+   HERO
+   SELECTOR DE ID
+   ===================================================== */
+
+#hero {
+    min-height: 650px;
+}
+
+
+.hero-section {
+    position: relative;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.58),
+            rgba(0, 0, 0, 0.58)
+        ),
+        url("../images/hero.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 80px 20px;
+}
+
+
+.hero-overlay {
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.hero-content {
+    max-width: 850px;
+
+    margin: 20px auto;
+
+    padding: 45px;
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    border-radius: 15px;
+
+    box-sizing: border-box;
+
+    background-color: rgba(0, 0, 0, 0.18);
+}
+
+
+.hero-content h1 {
+    color: #ffffff;
+}
+
+
+.hero-content p {
+    color: #ffffff;
+}
+
+
+/* =====================================================
+   SECCIÓN CONÓCENOS
+   TEXTO SOBRE LA FOTOGRAFÍA
+   ===================================================== */
+
+#about {
+    min-height: 600px;
+}
+
+
+.about-section {
+    position: relative;
+
+    background-image:
+        url("../images/restaurant.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 90px 20px;
+}
+
+
+.about-overlay {
+    width: 100%;
+
+    min-height: 420px;
+
+    display: flex;
+
+    align-items: center;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.15),
+            rgba(0, 0, 0, 0.78)
+        );
+
+    padding: 60px 0;
+}
+
+
+.about-section h2 {
+    color: #ffffff;
+
+    text-shadow:
+        2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+
+.about-section p {
+    color: #ffffff;
+
+    line-height: 1.7;
+
+    text-shadow:
+        1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+
+.about-section .section-label {
+    color: #ffc107;
+}
+
+
+/* =====================================================
+   TARJETAS DE SERVICIOS
+   ===================================================== */
+
+.service-card {
+    border: none;
+
+    border-radius: 15px;
+
+    margin: 10px;
+
+    padding: 20px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.service-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =====================================================
+   ICONOS
+   ===================================================== */
+
+.service-icon {
+    width: 70px;
+
+    height: 70px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #fff3cd;
+
+    border: 2px solid #ffc107;
+
+    border-radius: 50%;
+
+    font-size: 30px;
+
+    color: #856404;
+}
+
+
+/* =====================================================
+   CTA
+   ===================================================== */
+
+#cta {
+    background-color: #fff8e1;
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+}
+
+
+/* =====================================================
+   BOTONES
+   ===================================================== */
+
+.btn-warning {
+    font-weight: bold;
+
+    border-radius: 8px;
+
+    padding: 12px 24px;
+}
+
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+
+footer {
+    margin-top: 0;
+}
+
+
+/* =====================================================
+   PÁGINA DE MENÚ
+   ===================================================== */
+
+.menu-card {
+    overflow: hidden;
+
+    border: 1px solid #e9ecef;
+
+    border-radius: 15px;
+
+    margin: 5px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.menu-card img {
+    width: 100%;
+
+    height: 230px;
+
+    object-fit: cover;
+}
+
+
+.menu-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =====================================================
+   CONTACTO
+   ===================================================== */
+
+#contact-section {
+    background-color: #ffffff;
+}
+
+
+.contact-card {
+    border: 1px solid #e9ecef;
+
+    border-radius: 15px;
+
+    padding: 5px;
+}
+
+
+.contact-info {
+    padding: 10px;
+}
+
+
+.contact-icon {
+    min-width: 50px;
+
+    height: 50px;
+
+    margin-right: 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #fff3cd;
+
+    border: 2px solid #ffc107;
+
+    border-radius: 50%;
+
+    color: #856404;
+
+    font-size: 20px;
+}
+
+
+/* =====================================================
+   FORMULARIO
+   ===================================================== */
+
+.form-control {
+    padding: 12px;
+
+    border: 1px solid #ced4da;
+
+    border-radius: 8px;
+}
+
+
+.form-control:focus {
+    border-color: #ffc107;
+
+    box-shadow:
+        0 0 0 0.2rem rgba(255, 193, 7, 0.20);
+}
+
+
+/* =====================================================
+   RESPONSIVE - TABLETS
+   ===================================================== */
+
+@media (max-width: 768px) {
+
+    #hero {
+        min-height: 520px;
+    }
+
+
+    .hero-section {
+        padding: 60px 15px;
+    }
+
+
+    .hero-content {
+        margin: 10px auto;
+
+        padding: 30px 20px;
+    }
+
+
+    .hero-content h1 {
+        font-size: 2.3rem;
+    }
+
+
+    .about-section {
+        min-height: 550px;
+
+        padding: 60px 15px;
+    }
+
+
+    .about-overlay {
+        min-height: 450px;
+
+        padding: 45px 0;
+
+        background:
+            rgba(0, 0, 0, 0.72);
+    }
+
+
+    .service-card {
+        margin: 5px 0;
+    }
+
+
+    .menu-card {
+        margin: 5px 0;
+    }
+
+
+    .menu-card img {
+        height: 210px;
+    }
+
+
+    .contact-card {
+        padding: 0;
+    }
+
+}
+
+
+/* =====================================================
+   RESPONSIVE - TELÉFONOS
+   ===================================================== */
+
+@media (max-width: 576px) {
+
+    #hero {
+        min-height: 500px;
+    }
+
+
+    .hero-content {
+        padding: 25px 15px;
+    }
+
+
+    .hero-content h1 {
+        font-size: 1.9rem;
+    }
+
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+
+    .about-section {
+        min-height: 600px;
+
+        padding: 40px 15px;
+    }
+
+
+    .about-overlay {
+        padding: 35px 0;
+
+        background:
+            rgba(0, 0, 0, 0.76);
+    }
+
+
+    .about-section h2 {
+        font-size: 2rem;
+    }
+
+
+    .about-section p {
+        font-size: 1rem;
+    }
+
+
+    .menu-card img {
+        height: 190px;
+    }
+
+
+    .contact-info {
+        padding: 5px;
+    }
+
+}

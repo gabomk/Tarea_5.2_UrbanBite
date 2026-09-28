@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- =====================================================
+         ESTRUCTURA HTML5
+         ===================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Contacto UrbanBite - Restaurante & Café"
+    >
+
+    <title>UrbanBite | Contacto</title>
+
+
+    <!-- =====================================================
+         BOOTSTRAP 5.3.3
+         ===================================================== -->
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         BOOTSTRAP ICONS
+         ===================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+
+    <!-- =====================================================
+         CSS PERSONALIZADO
+         ===================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/styles.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         NAVBAR
+         ===================================================== -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <div class="container">
+
+            <a
+                class="navbar-brand fw-bold"
+                href="index.html"
+            >
+
+                <i class="bi bi-cup-hot-fill"></i>
+
+                UrbanBite
+
+            </a>
+
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Abrir navegación"
+            >
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div
+                class="collapse navbar-collapse"
+                id="mainNavbar"
+            >
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="index.html"
+                        >
+                            Inicio
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="menu.html"
+                        >
+                            Menú
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link active"
+                            href="contacto.html"
+                        >
+                            Contacto
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =====================================================
+         ENCABEZADO DE CONTACTO
+         ===================================================== -->
+
+    <header class="bg-dark text-white text-center py-5">
+
+        <div class="container">
+
+            <span class="section-label">
+                URBANBITE
+            </span>
+
+
+            <h1 class="display-5 fw-bold">
+                Contáctanos
+            </h1>
+
+
+            <p class="lead">
+                Estamos aquí para escucharte.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         SECCIÓN DE CONTACTO
+         ===================================================== -->
+
+    <main
+        id="contact-section"
+        class="py-5"
+    >
+
+        <div class="container">
+
+            <div class="row g-5">
+
+
+                <!-- =================================================
+                     INFORMACIÓN DE CONTACTO
+                     ================================================= -->
+
+                <div class="col-lg-5">
+
+                    <h2 class="fw-bold mb-4">
+                        Hablemos
+                    </h2>
+
+
+                    <p class="text-muted mb-4">
+
+                        ¿Tienes alguna pregunta sobre nuestro menú,
+                        servicios o deseas compartirnos algún comentario?
+                        Escríbenos.
+
+                    </p>
+
+
+                    <div class="contact-card shadow-sm">
+
+
+                        <!-- DIRECCIÓN -->
+
+                        <div class="contact-info d-flex align-items-center">
+
+                            <div class="contact-icon">
+
+                                <i class="bi bi-geo-alt-fill"></i>
+
+                            </div>
+
+
+                            <div>
+
+                                <strong>
+                                    Ubicación
+                                </strong>
+
+                                <p class="mb-0 text-muted">
+                                    San Juan, Puerto Rico
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- TELÉFONO -->
+
+                        <div class="contact-info d-flex align-items-center">
+
+                            <div class="contact-icon">
+
+                                <i class="bi bi-telephone-fill"></i>
+
+                            </div>
+
+
+                            <div>
+
+                                <strong>
+                                    Teléfono
+                                </strong>
+
+                                <p class="mb-0 text-muted">
+                                    (555) 123-4567
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+
+                        <div class="contact-info d-flex align-items-center">
+
+                            <div class="contact-icon">
+
+                                <i class="bi bi-envelope-fill"></i>
+
+                            </div>
+
+
+                            <div>
+
+                                <strong>
+                                    Correo electrónico
+                                </strong>
+
+                                <p class="mb-0 text-muted">
+                                    contacto@urbanbite.example
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     FORMULARIO
+                     ================================================= -->
+
+                <div class="col-lg-7">
+
+                    <div class="card border-0 shadow-sm p-4">
+
+                        <h2 class="fw-bold mb-4">
+                            Envíanos un mensaje
+                        </h2>
+
+
+                        <form
+                            id="contactForm"
+                            class="needs-validation"
+                            novalidate
+                        >
+
+
+                            <!-- NOMBRE -->
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="name"
+                                    class="form-label"
+                                >
+                                    Nombre
+                                </label>
+
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                    placeholder="Escribe tu nombre"
+                                    required
+                                >
+
+
+                                <div class="invalid-feedback">
+
+                                    Por favor, escribe tu nombre.
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- EMAIL -->
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="email"
+                                    class="form-label"
+                                >
+                                    Correo electrónico
+                                </label>
+
+
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    placeholder="nombre@correo.com"
+                                    required
+                                >
+
+
+                                <div class="invalid-feedback">
+
+                                    Por favor, escribe un correo válido.
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- ASUNTO -->
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="subject"
+                                    class="form-label"
+                                >
+                                    Asunto
+                                </label>
+
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="subject"
+                                    placeholder="¿En qué podemos ayudarte?"
+                                    required
+                                >
+
+
+                                <div class="invalid-feedback">
+
+                                    Por favor, escribe un asunto.
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- MENSAJE -->
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="message"
+                                    class="form-label"
+                                >
+                                    Mensaje
+                                </label>
+
+
+                                <textarea
+                                    class="form-control"
+                                    id="message"
+                                    rows="5"
+                                    placeholder="Escribe tu mensaje..."
+                                    required
+                                ></textarea>
+
+
+                                <div class="invalid-feedback">
+
+                                    Por favor, escribe un mensaje.
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- BOTÓN -->
+
+                            <button
+                                type="submit"
+                                class="btn btn-warning"
+                            >
+
+                                <i class="bi bi-send-fill"></i>
+
+                                Enviar mensaje
+
+                            </button>
+
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer
+        class="bg-dark text-white text-center py-4"
+    >
+
+        <div class="container">
+
+            <p class="mb-1">
+
+                <i class="bi bi-cup-hot-fill"></i>
+
+                <strong>
+                    UrbanBite
+                </strong>
+
+            </p>
+
+
+            <p class="mb-0 small">
+
+                Restaurante & Café | Proyecto académico
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         BOOTSTRAP JAVASCRIPT
+         ===================================================== -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+
+    <!-- =====================================================
+         VALIDACIÓN DEL FORMULARIO
+         ===================================================== -->
+
+    <script>
+
+        const form = document.getElementById("contactForm");
+
+
+        form.addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+
+            if (!form.checkValidity()) {
+
+                event.stopPropagation();
+
+                form.classList.add("was-validated");
+
+                return;
+
+            }
+
+
+            alert(
+                "Gracias por contactar a UrbanBite. Tu mensaje fue enviado."
+            );
+
+
+            form.reset();
+
+            form.classList.remove("was-validated");
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>

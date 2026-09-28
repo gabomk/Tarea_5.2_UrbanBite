@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- =====================================================
+         ESTRUCTURA HTML5
+         ===================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="UrbanBite - Restaurante y Café"
+    >
+
+    <title>UrbanBite | Restaurante & Café</title>
+
+
+    <!-- =====================================================
+         BOOTSTRAP 5.3.3
+         ===================================================== -->
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         BOOTSTRAP ICONS
+         ===================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+
+    <!-- =====================================================
+         CSS PERSONALIZADO
+         ===================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/styles.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         NAVBAR
+         Bootstrap
+         ===================================================== -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <div class="container">
+
+            <a
+                class="navbar-brand fw-bold"
+                href="index.html"
+            >
+                <i class="bi bi-cup-hot-fill"></i>
+                UrbanBite
+            </a>
+
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Abrir navegación"
+            >
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div
+                class="collapse navbar-collapse"
+                id="mainNavbar"
+            >
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link active"
+                            href="index.html"
+                        >
+                            Inicio
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-link"
+                            href="menu.html"
+                        >
+                            Menú
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a
+                            class="nav-item">
+                            href="contacto.html"
+                        >
+                            Contacto
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =====================================================
+         HERO
+         Imagen de fondo + título
+         ===================================================== -->
+
+    <header
+        id="hero"
+        class="hero-section"
+    >
+
+        <div class="hero-overlay">
+
+            <div class="hero-content text-center text-white">
+
+                <span class="section-label">
+                    RESTAURANTE & CAFÉ
+                </span>
+
+
+                <h1 class="display-3 fw-bold">
+
+                    Sabor urbano.
+                    <br>
+                    Experiencia única.
+
+                </h1>
+
+
+                <p class="lead">
+
+                    Sabores modernos, café artesanal
+                    y un espacio creado para compartir.
+
+                </p>
+
+
+                <a
+                    href="menu.html"
+                    class="btn btn-warning btn-lg mt-3"
+                >
+
+                    <i class="bi bi-menu-button-wide"></i>
+
+                    Ver nuestro menú
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         SECCIÓN CONÓCENOS
+         Imagen completa con texto encima
+         ===================================================== -->
+
+    <section
+        id="about"
+        class="about-section"
+    >
+
+        <div class="about-overlay">
+
+            <div class="container">
+
+                <div class="row justify-content-end">
+
+                    <div class="col-lg-7">
+
+                        <span class="section-label">
+                            CONÓCENOS
+                        </span>
+
+
+                        <h2 class="display-5 fw-bold">
+
+                            Más que comida,
+                            una experiencia
+
+                        </h2>
+
+
+                        <p class="lead">
+
+                            UrbanBite es un restaurante ficticio creado
+                            para ofrecer una combinación de sabores
+                            modernos, ingredientes frescos y un ambiente
+                            relajado.
+
+                        </p>
+
+
+                        <p>
+
+                            Nuestro concepto combina gastronomía urbana,
+                            café artesanal y un espacio diseñado para
+                            compartir con familiares y amigos.
+
+                        </p>
+
+
+                        <a
+                            href="contacto.html"
+                            class="btn btn-warning mt-2"
+                        >
+
+                            Contáctanos
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SERVICIOS
+         Bootstrap Cards
+         ===================================================== -->
+
+    <section
+        id="services"
+        class="py-5 bg-light"
+    >
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <span class="section-label">
+                    LO QUE OFRECEMOS
+                </span>
+
+
+                <h2 class="fw-bold">
+                    Una experiencia para cada momento
+                </h2>
+
+
+                <p class="text-muted">
+                    Descubre lo que UrbanBite tiene para ti.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+
+                <!-- TARJETA 1 -->
+
+                <div class="col-md-4">
+
+                    <div class="card service-card h-100 shadow-sm text-center">
+
+                        <div class="service-icon">
+
+                            <i class="bi bi-cup-hot-fill"></i>
+
+                        </div>
+
+
+                        <div class="card-body">
+
+                            <h3 class="h4">
+                                Café artesanal
+                            </h3>
+
+
+                            <p class="text-muted">
+
+                                Café preparado con granos
+                                seleccionados y diferentes
+                                opciones para comenzar el día.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TARJETA 2 -->
+
+                <div class="col-md-4">
+
+                    <div class="card service-card h-100 shadow-sm text-center">
+
+                        <div class="service-icon">
+
+                            <i class="bi bi-egg-fried"></i>
+
+                        </div>
+
+
+                        <div class="card-body">
+
+                            <h3 class="h4">
+                                Gastronomía
+                            </h3>
+
+
+                            <p class="text-muted">
+
+                                Platos preparados con ingredientes
+                                frescos y sabores inspirados
+                                en la cocina urbana.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TARJETA 3 -->
+
+                <div class="col-md-4">
+
+                    <div class="card service-card h-100 shadow-sm text-center">
+
+                        <div class="service-icon">
+
+                            <i class="bi bi-people-fill"></i>
+
+                        </div>
+
+
+                        <div class="card-body">
+
+                            <h3 class="h4">
+                                Ambiente
+                            </h3>
+
+
+                            <p class="text-muted">
+
+                                Un espacio cómodo y moderno
+                                para compartir con familiares
+                                y amigos.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CALL TO ACTION
+         ===================================================== -->
+
+    <section
+        id="cta"
+        class="py-5 text-center"
+    >
+
+        <div class="container">
+
+            <h2 class="fw-bold">
+                ¿Listo para conocer UrbanBite?
+            </h2>
+
+
+            <p class="lead mb-4">
+
+                Visita nuestro menú y descubre tus
+                próximos favoritos.
+
+            </p>
+
+
+            <a
+                href="menu.html"
+                class="btn btn-warning btn-lg"
+            >
+
+                Explorar menú
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer
+        class="bg-dark text-white text-center py-4"
+    >
+
+        <div class="container">
+
+            <p class="mb-1">
+
+                <i class="bi bi-cup-hot-fill"></i>
+                <strong>UrbanBite</strong>
+
+            </p>
+
+
+            <p class="mb-0 small">
+
+                Restaurante & Café | Proyecto académico
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         BOOTSTRAP JAVASCRIPT
+         ===================================================== -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+
+</body>
+
+</html>

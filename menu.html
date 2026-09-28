@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Estructura HTML5 y configuración responsiva -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UrbanBite | Menú</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-cup-hot-fill"></i> UrbanBite
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Mostrar navegación"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="menu.html">
+                            Menú
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HEADER DEL MENÚ -->
+    <header class="bg-dark text-white text-center py-5">
+
+        <div class="container">
+
+            <span class="section-label">
+                URBANBITE
+            </span>
+
+            <h1 class="display-5 fw-bold">
+                Nuestro Menú
+            </h1>
+
+            <p class="lead">
+                Sabores preparados para disfrutar.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <section id="menu" class="py-5">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+
+                    <h2 class="fw-bold">
+                        Favoritos de UrbanBite
+                    </h2>
+
+                    <p class="text-muted">
+                        Una selección de platos y bebidas de nuestro
+                        restaurante ficticio.
+                    </p>
+
+                </div>
+
+
+                <!-- TARJETAS DEL MENÚ -->
+                <div class="row g-4">
+
+
+                    <!-- PRODUCTO 1 -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card menu-card h-100 shadow-sm">
+
+                            <img
+                                src="images/burger.jpg"
+                                class="card-img-top"
+                                alt="Hamburguesa UrbanBite"
+                            >
+
+                            <div class="card-body">
+
+                                <span class="badge bg-warning text-dark mb-2">
+                                    Favorito
+                                </span>
+
+                                <h3 class="card-title h4">
+                                    Urban Burger
+                                </h3>
+
+                                <p class="card-text">
+                                    Hamburguesa artesanal con carne,
+                                    queso, vegetales frescos y nuestra
+                                    salsa especial.
+                                </p>
+
+                                <h4 class="text-warning">
+                                    $14.99
+                                </h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PRODUCTO 2 -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card menu-card h-100 shadow-sm">
+
+                            <img
+                                src="images/pasta.jpg"
+                                class="card-img-top"
+                                alt="Pasta UrbanBite"
+                            >
+
+                            <div class="card-body">
+
+                                <span class="badge bg-dark mb-2">
+                                    Especial
+                                </span>
+
+                                <h3 class="card-title h4">
+                                    Pasta Urbana
+                                </h3>
+
+                                <p class="card-text">
+                                    Pasta preparada con salsa cremosa,
+                                    vegetales y queso parmesano.
+                                </p>
+
+                                <h4 class="text-warning">
+                                    $16.99
+                                </h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PRODUCTO 3 -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card menu-card h-100 shadow-sm">
+
+                            <img
+                                src="images/tacos.jpg"
+                                class="card-img-top"
+                                alt="Tacos UrbanBite"
+                            >
+
+                            <div class="card-body">
+
+                                <span class="badge bg-warning text-dark mb-2">
+                                    Popular
+                                </span>
+
+                                <h3 class="card-title h4">
+                                    Tacos Urbanos
+                                </h3>
+
+                                <p class="card-text">
+                                    Tres tacos con proteína a elección,
+                                    vegetales frescos y salsa de la casa.
+                                </p>
+
+                                <h4 class="text-warning">
+                                    $12.99
+                                </h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PRODUCTO 4 -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card menu-card h-100 shadow-sm">
+
+                            <img
+                                src="images/coffee.jpg"
+                                class="card-img-top"
+                                alt="Café artesanal"
+                            >
+
+                            <div class="card-body">
+
+                                <span class="badge bg-dark mb-2">
+                                    Café
+                                </span>
+
+                                <h3 class="card-title h4">
+                                    Café Artesanal
+                                </h3>
+
+                                <p class="card-text">
+                                    Café preparado con granos seleccionados
+                                    y servido caliente.
+                                </p>
+
+                                <h4 class="text-warning">
+                                    $4.50
+                                </h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PRODUCTO 5 -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card menu-card h-100 shadow-sm">
+
+                            <img
+                                src="images/salad.jpg"
+                                class="card-img-top"
+                                alt="Ensalada fresca"
+                            >
+
+                            <div class="card-body">
+
+                                <span class="badge bg-warning text-dark mb-2">
+                                    Fresco
+                                </span>
+
+                                <h3 class="card-title h4">
+                                    Urban Salad
+                                </h3>
+
+                                <p class="card-text">
+                                    Ensalada fresca con vegetales,
+                                    ingredientes seleccionados y aderezo.
+                                </p>
+
+                                <h4 class="text-warning">
+                                    $10.99
+                                </h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PRODUCTO 6 -->
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card menu-card h-100 shadow-sm">
+
+                            <img
+                                src="images/dessert.jpg"
+                                class="card-img-top"
+                                alt="Postre UrbanBite"
+                            >
+
+                            <div class="card-body">
+
+                                <span class="badge bg-dark mb-2">
+                                    Postre
+                                </span>
+
+                                <h3 class="card-title h4">
+                                    Sweet Bite
+                                </h3>
+
+                                <p class="card-text">
+                                    Postre especial para cerrar tu visita
+                                    con un toque dulce.
+                                </p>
+
+                                <h4 class="text-warning">
+                                    $7.50
+                                </h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LLAMADO A LA ACCIÓN -->
+        <section class="py-5 bg-light text-center">
+
+            <div class="container">
+
+                <h2 class="fw-bold">
+                    ¿Tienes alguna pregunta?
+                </h2>
+
+                <p>
+                    Comunícate con nosotros para obtener más información.
+                </p>
+
+                <a href="contacto.html" class="btn btn-dark">
+                    Ir a contacto
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-4">
+
+        <div class="container">
+
+            <p class="mb-1">
+                <strong>UrbanBite</strong> — Restaurante & Café
+            </p>
+
+            <p class="mb-0">
+                © 2026 UrbanBite. Proyecto académico ficticio.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
